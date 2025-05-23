@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font cdn -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- Font awesome cnd -->
+    <script src="https://kit.fontawesome.com/5ac76ffe22.js" crossorigin="anonymous"></script>
+    <!-- Tailwind cnd -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="max-w-screen-lg mx-auto px-16 md:px-12 lg:px-20">
+        <header class="flex pt-10 mb-20 items-center">
+            <!-- Text content -->
+            <div>
+                <h1 class="text-5xl md:text-7xl font-semibold">It's good 
+                    <br>
+                    tea time at The 
+                    <br>
+                    Tea House
+                </h1>
+                <br>
+                <p class="text-gray-400 w-3/4 my-3">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="bg-linear-to-r/srgb from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold cursor-pointer">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+            </div>
+            <!-- Image Content -->
+            <div class="relative">
+                <!-- Image -->
+                <div>
+                    <img class="w-auto" src="images/banner.png" alt="">
+                </div>
+                <!-- card -->
+                 <div class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-2 rounded-lg top-28 md:top-75 md:left-32 lg:left-28">
+                    <!-- Icon -->
+                    <div>
+                        <i class="fa-solid fa-star text-2xl text-amber-500 mr-3"></i>
+                    </div>
+                    <!-- text -->
+                    <div>
+                        <h3 class="text-3xl font-bold">5.00</h3>
+                        <p class="text-sm text-gray-400">Trust Pilot Ratings</p>
+                    </div>
+                 </div>
+            </div>
+        </header>
+    </main>
+  </body>
+</html>
